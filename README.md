@@ -2,7 +2,7 @@
 
 Turn a plain product photo into a styled studio shot from a single n8n form. Upload a photo, pick a look, describe the scene, and an image-to-image model re-renders it into a professional product or lifestyle shot. No front end to build, no server to host. About **$0.11 per image**, all in.
 
-![Before and after](assets/example-after.png)
+![Before and after](assets/example-before-after.png)
 
 The product on the left is a phone snapshot. The one on the right came out of this workflow. The model only changes the scene, lighting, and styling around the product. It never alters the product itself.
 
@@ -75,7 +75,7 @@ This workflow is the generation engine, kept deliberately small so it's easy to 
 
 ## What I built with it
 
-I originally built this for [Cantique](https://shopcantique.com), a candle brand, where shipping fresh product photography for every scent and every channel was a real bottleneck. The public workflow here is the **generation layer** at the center of a larger system.
+I originally built this for [Cantique](https://www.instagram.com/cantiquecandle/), a candle brand, where shipping fresh product photography for every scent and every channel was a real bottleneck. The public workflow here is the **generation layer** at the center of a larger system.
 
 ![Full architecture](assets/architecture.png)
 
